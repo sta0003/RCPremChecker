@@ -25,5 +25,7 @@ How to run. Open Powershell and type:
 
 INFO:
 folder "img" holds test images.
+
 folder "componets" holds required components, with install for python.
+
 file "depleted.csv" is a test file for auto-download and verification.
