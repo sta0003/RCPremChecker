@@ -1,3 +1,6 @@
+#           Copyright © 2022 Ashton Stack
+
+
 from tkinter.tix import Tree
 from PIL import ImageChops, Image
 import numpy as np
@@ -46,9 +49,11 @@ if __name__ == "__main__":
             auto = False
         if arg == "-h" or arg == "/?":
             
+            #           Copyright © 2022 Ashton Stack
             print(f"{bcolors.BOLD}{bcolors.HEADER}HELP:{bcolors.ENDC}\n")
             print(f"{bcolors.HEADER}Arguments: {bcolors.OKCYAN} (-v = Verbose, -m = Manual verification using 'a' to accept and 'd' to decline, -h or /? = Display help) {bcolors.ENDC}")
             print(f"{bcolors.HEADER}Usage: {bcolors.OKCYAN} Place all images into the 'in' folder or place csv file for auto-download and processing of images. \n        All images will be sorted into 'Accept' or 'Decline' folders located in 'out' depending on premium status. {bcolors.ENDC}")
+            print(f"{bcolors.BOLD}{bcolors.HEADER}\n\nCopyright © 2022 Ashton Stack{bcolors.ENDC}")
             exit()
 
 
@@ -187,3 +192,4 @@ for filename in os.listdir(inputDir):
             if not debug: print(f"{bcolors.HEADER}RC22: {bcolors.FAIL}{user} {bcolors.HEADER}PREMIUM: {bcolors.FAIL}{prem} {bcolors.ENDC}")
         
 
+#           Copyright © 2022 Ashton Stack
