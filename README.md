@@ -16,6 +16,8 @@ Starting arguments:
 
 How to run. Open Powershell and type:
 
-python3 index.py      (Normal   Mode)
-python3 index.py -v   (Verbose  Mode)
-python3 index.py -m   (Manual   Mode)
+"python3 index.py"     (Normal   Mode)
+
+"python3 index.py -v"  (Verbose  Mode)
+
+"python3 index.py -m"  (Manual   Mode)
