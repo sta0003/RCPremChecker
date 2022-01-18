@@ -10,8 +10,10 @@ Place all images into the 'in' folder or place csv file for auto-download and pr
 All images will be sorted into 'Accept' or 'Decline' folders located in 'out' depending on premium status.
 
 
+
 Starting arguments:
 (-v = Verbose, -m = Manual verification using 'a' to accept and 'd' to decline, -h or /? = Display help)
+
 
 
 How to run. Open Powershell and type:
@@ -23,7 +25,9 @@ How to run. Open Powershell and type:
 "python3 index.py -m"  (Manual   Mode)
 
 
+
 INFO:
+
 folder "img" holds test images.
 
 folder "componets" holds required components, with install for python.
